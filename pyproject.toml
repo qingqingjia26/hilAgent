@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "hil_agent"
+version = "1.0.0"
+description = "The hilAgent"
+authors = ["hujun <qingqingjia26@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/qingqingjia26/hilAgent"
+documentation = "https://github.com/qingqingjia26/hilAgent"
+
+[tool.poetry.scripts]
+hil_agent = 'hil_agent.main:hil_react_agent'
+
+[tool.poetry.dependencies]
+python = ">=3.10.0"
+pytest = "^7.4.3"
+pytest-xdist = "*"
+pytest-repeat = "*"
+pytest-rerunfailures = "^12.0"
+pytest-asyncio = "^0.21.1"
+langchain = "*"
+langchain-anthropic = "*"
+langchain-chroma = "*"
+langchain-community = "*"
+langchain-core = "*"
+langchain-openai = "*"
+langchain-text-splitters = "*"
+langchainhub = "*"
+langgraph = "*"
+ollama = "*"
+openai = "*"
+bs4 = "*"
+chromadb = "*"
+unstructured = "*"
+volcengine-python-sdk = "*"
+datasets = "*"
+deepeval = "*"
+paramiko = "*"
+
+[tool.black]
+line-length = 80
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-m 'not skip_test'"
+markers = [
+    "skip_test: skip the test",
+]
