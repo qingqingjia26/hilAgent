@@ -63,6 +63,11 @@ hil_agent --query="1+1=?" --llm=""  --base_url="https://dashscope.aliyuncs.com/c
 - 简单性：易于设置和使用，适合初学者和专家。
 - 灵活性：轻松集成到现有系统或作为独立工具使用。
 
+# langgraph node image
+
+![langgraph](./hil_agent_graph.png)
+
+
 # 贡献
 我们欢迎对hilAgent的贡献！如果您发现错误，请通过开启问题来报告。
 

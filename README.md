@@ -68,5 +68,9 @@ Contributing
 
 We welcome contributions to hilAgent! If you find a bug, please report it by opening an issue.
 
+# langgraph node image
+
+![langgraph](./docs/hil_agent_graph.png)
+
 # License
 hilAgent is open-source and available under the Apache License Version 2.0 License. Feel free to use, modify, and distribute it as needed.

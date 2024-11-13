@@ -407,8 +407,8 @@ def hil_pe_react_agent_func(
         },
     )
     graph: CompiledStateGraph = workflow.compile()
-    # graph.get_graph().draw_png("hil_agent_graph.png")
-    # raise ValueError("stop here")
+    graph.get_graph().draw_png("hil_agent_graph.png")
+    raise ValueError("stop here")
 
     inputs = {
         "messages": [],
