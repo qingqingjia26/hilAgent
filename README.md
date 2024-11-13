@@ -1,4 +1,4 @@
-English | [**中文**](https://github.com/qingqingjia26/hilAgent/docs/README_ZH.md)
+English | [**中文**](https://github.com/qingqingjia26/hilAgent/blob/main/docs/README_ZH.md)
 
 # hilAgent: The Simplest Human-in-the-Loop Agent
 
@@ -39,7 +39,7 @@ conda activate hilAgent
 ### Install hilAgent
 ```bash
 # clone this repository
-git clone git@github.com:qingqingjia26/hilAgent.git
+git clone https://github.com/qingqingjia26/hilAgent.git
 # Install hilAgent in editable mode
 cd hilAgent
 pip install -e .

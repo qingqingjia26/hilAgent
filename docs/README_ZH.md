@@ -1,10 +1,9 @@
 # hilAgent：最简单的Human-in-the-Loop Agent
 
-**hilAgent** 是一个应用plan-and-execute和React思想的最小化的人机协同代理，其使用了强大的 [langchain/langgraph](https://github.com/hwchase17/langchain)。
+**hilAgent** 是一个应用plan-and-execute和React思想的最简单的hil agent，其使用了强大的 [langchain/langgraph](https://github.com/hwchase17/langchain)。
 
 ## 主要目标
 这个项目的主要目标是提供一个"麻雀虽小五脏俱全"的agent示例，体现了人与AI协作的核心原则。
-
 
 ## 特性
 - **最小化设计**：专注于基本要素，使其更易于理解和修改。
@@ -37,9 +36,9 @@ conda activate hilAgent
 ### 安装hilAgent
 ```bash
 # 克隆此仓库
-git clone 
+git clone https://github.com/qingqingjia26/hilAgent.git
 # 以可编辑模式安装hilAgent
-cd 
+cd hilAgent
 pip install -e .
 ```
 
